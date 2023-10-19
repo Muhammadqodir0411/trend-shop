@@ -1,0 +1,35 @@
+.category-top{
+  // margin-top: 20px;
+  padding-bottom: 30px;
+  max-width: 1440px;
+}
+.drop{
+  position: absolute;
+  z-index: 4!important;
+}
+
+.slick-next::before{
+  color: #000!important;
+}
+.slick-prev::before{
+  color: #000!important;
+}
+#dropdown-basic{
+  padding: 0;
+  outline: none;
+  border: none;
+}
+.drop-menu{
+  height: 150px;
+  border-radius: 0px;
+  overflow-y: scroll;
+}
+.slid{
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  flex-direction: row;
+  height: 500px;
+  overflow-y: hidden;
+}
+

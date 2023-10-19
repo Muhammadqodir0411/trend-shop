@@ -1,0 +1,147 @@
+.product-info {
+  max-width: 1440px;
+}
+.product-all {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+}
+.wish {
+  top: 10px;
+  right: 10px;
+}
+.product-alls{
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-card {
+  position: relative;
+  padding: 20px;
+  width: 260px;
+  height: 360px;
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  img {
+    width: 134px!important;
+    height:134px;
+  }
+  transition: all 0.3s ease-in-out;
+}
+.product-card:hover{
+  transform: scale(1.05);
+  z-index: 4;
+  border-radius: 10px;
+  box-shadow: 0px 5px 5px 0px #adadad;
+}
+.popular-title {
+  margin: 10px 0px;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: normal;
+  color: #202c3b;
+}
+.otziv {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: normal;
+  color: #707070;
+}
+.nalichka {
+  width: 80px;
+  font-weight: 700;
+}
+.price-title {
+  font-size: 18px;
+  line-height: 24px;
+  color: #2d2e30;
+  font-weight: 700;
+}
+.product__footer {
+  margin-top: 20px;
+}
+.rating{
+  width: 100px;
+}
+.filter-price-title{
+  font-size: 14px;
+  color: #353535;
+}
+@media screen and (max-width:1280px) {
+  .filter-product{
+    width: 20%!important;
+  }
+}
+@media screen and (max-width:1220px) {
+  .filter-product{
+    width: 235px!important;
+  }
+  .product-all{
+    flex-wrap: wrap!important;
+  }
+  .product-card{
+    width: 210px!important;
+    height: 360px ;
+  }
+}
+@media screen and (max-width:694px) {
+  .filter-product{
+    width: 100%!important;
+  }
+  .product-all-filter{
+    flex-direction: column!important;
+  }
+  .product-alls{
+    width: 100%!important;
+  }
+  .product-card{
+    width: 50%!important;
+  }
+}
+@media screen and (max-width:488px) {
+
+  .product-card{
+    width: 100%!important;
+    height: 210px;
+    padding-bottom: 10px!important;
+    flex-direction: row!important;
+    justify-content: space-between!important;
+    align-items: flex-start!important;
+    .single-porduct{
+      width: 70%;
+    }
+    .single-rating{
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      background: #c5c5c5;
+      left: 0;
+      right: 0;
+      margin: 0!important;
+      padding: 5px 10px;
+      margin: 0 auto;
+    }
+    img{
+      width: 134px!important;
+      height: 134px!important;
+      margin-right: 10px;
+    }
+  }
+}
+@media screen and (max-width:380px) {
+  .product-card{
+    .product__footer{
+      margin-top: 0px!important;
+    }
+    padding-bottom: 40px!important;  
+    img{
+      width: 80px!important;
+      height: 100px!important;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "product": [
+    {
+      "title": "sdfgbhn",
+      "price": "40",
+      "description": "lroemfknnacddsc",
+      "categories": "electronics",
+      "image": "https://i.pravatar.cc",
+      "id": 2
+    },
+    {
+      "title": "title",
+      "price": "13",
+      "description": "fewffdfweffweffefw",
+      "categories": "men's clothing",
+      "image": "https://i.pravatar.cc",
+      "id": 3
+    }
+  ]
+}
