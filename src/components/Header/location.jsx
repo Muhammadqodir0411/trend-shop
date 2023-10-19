@@ -20,6 +20,8 @@ const location = () => {
           <img src={Img} className="header__logo--img" alt="images logo" />
         </Link>
 
+        <p>Header</p>
+
         {/* <Link to="https://www.instagram.com/trend_elektronic/" className="header__logo--link">
         <img src={Trend} className="header__logo--img" alt="logo" />
         </Link> */}
