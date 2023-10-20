@@ -49,14 +49,14 @@ const index = () => {
                   to={"/catproduct"}
                   className="text-secondary underline-none p-0"
                 >
-                  Крупная бытовая техника
+                  Katta maishiy texnika
                 </Link>
                 <MdArrowForwardIos className="text-warning mx-1" />
                 <Link
                   to={"/info"}
                   className="text-secondary underline-none p-0"
                 >
-                  Холодильники
+                  Muzlatgichlar
                 </Link>
                 <MdArrowForwardIos className="text-warning mx-1" />
                 <Link className="text-secondary underline-none p-0">

@@ -12,10 +12,10 @@ const dropdown = () => {
         </Link>
         <MdArrowForwardIos className="text-warning mx-1" />
         <Link to={"/catproduct"} className="text-secondary underline-none p-0">
-          Крупная бытовая техника
+        Katta maishiy texnika
         </Link>
         <MdArrowForwardIos className="text-warning mx-1" />
-        Холодильники
+        Muzlatgichlar
         <Dropdown.Toggle
           variant="white"
           id="dropdown-basic"

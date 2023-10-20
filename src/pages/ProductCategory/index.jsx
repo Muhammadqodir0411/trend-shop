@@ -22,7 +22,7 @@ const index = () => {
               <div className="text-secondary fw-normal"></div>
               <Dropdown />
               <h3 className="text-black fw-bold fs-4 mx-0 mt-5 mb-4">
-                Крупная бытовая техника
+              Katta maishiy texnika
               </h3>
             </div>
             <div className="w-100 d-flex gap-3 justify-content-center align-items-center flex-wrap">

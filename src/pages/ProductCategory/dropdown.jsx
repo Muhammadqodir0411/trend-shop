@@ -11,7 +11,7 @@ const dropdown = () => {
           Home
         </Link>
         <MdArrowForwardIos className="text-warning mx-1" />
-        Крупная бытовая техника
+        Katta maishiy texnika
         <Dropdown.Toggle
           variant="white"
           id="dropdown-basic"

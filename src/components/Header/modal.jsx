@@ -26,9 +26,9 @@ const modal = () => {
           <div className="header__location-mobile text-white gap-2 py-1 d-flex  align-items-center navigation">
             <div className="d-flex justify-content-center fw-normal align-items-center gap-1 fs-6 text-black">
               <FiNavigation className="text-danger navi" />
-              <p className="m-0 text-secondary fw-normal p-0 ">Ваш город</p>
+              <p className="m-0 text-secondary fw-normal p-0 ">Sizning shahringiz</p>
             </div>
-            Sankt peterburg
+            Farg'ona
           </div>
           <IoMdClose
             className={`position-absolute modal-close ${
@@ -43,17 +43,18 @@ const modal = () => {
         >
           <div className="d-flex flex-column align-items-start justify-content-between ">
             <a
-              href="tel:+998932502719"
+              href="tel:+998918017575"
               className="fw-bold header__call--tel text-black"
             >
               <FaMobileAlt
                 className="text-danger"
                 style={{ width: "20px", height: "20px" }}
               />
-              +7 (812) 200-49-00
+              +998918017575
             </a>
+
             <a
-              href="tel:+99892565566"
+              href="tel:+998996080090"
               className="fw-bold header__call--tel p-0 m-0"
             >
               <FaMobileAlt
@@ -61,7 +62,7 @@ const modal = () => {
                 style={{ width: "20px", height: "20px", opacity: "0" }}
               />
               <span className="m-0 p-0 text-secondary text-secondary call__text">
-                +7 (800) 777-04-02
+              +998996080090
               </span>
             </a>
           </div>
@@ -71,7 +72,7 @@ const modal = () => {
                 className="text-danger"
                 style={{ width: "20px", height: "20px" }}
               />
-              пн-пт, 10:00-19:00
+              Dushanba-Jum, 10:00-19:00
             </p>
             <span
               className="text-secondary fw-bold"
@@ -81,7 +82,7 @@ const modal = () => {
                 className="text-danger me-1"
                 style={{ width: "20px", height: "20px" }}
               />{" "}
-              Режим работы
+              Ish tartibi
             </span>
           </div>
         </div>
@@ -132,7 +133,7 @@ const modal = () => {
               className="modal-link text-black fw-bold"
               onClick={() => dispatch({ type: "OPEN", payload: false })}
             >
-              Оплата
+              To'lov
             </a>
           </li>
           <li className="list-items">
@@ -141,7 +142,7 @@ const modal = () => {
               className="modal-link text-black fw-bold"
               onClick={() => dispatch({ type: "OPEN", payload: false })}
             >
-              Установка
+              O'rnatish
             </a>
           </li>
           <li className="list-items">
@@ -150,7 +151,7 @@ const modal = () => {
               className="modal-link text-black fw-bold"
               onClick={() => dispatch({ type: "OPEN", payload: false })}
             >
-              Bозврат
+              Qaytish
             </a>
           </li>
           <li className="list-items">
@@ -159,7 +160,7 @@ const modal = () => {
               className="modal-link text-black fw-bold"
               onClick={() => dispatch({ type: "OPEN", payload: false })}
             >
-              бизнеса
+              Biznes
             </a>
           </li>
           <li className="list-items">
@@ -168,7 +169,7 @@ const modal = () => {
               className="modal-link text-black fw-bold"
               onClick={() => dispatch({ type: "OPEN", payload: false })}
             >
-              Контакты
+              Kontaktlar
             </a>
           </li>
           <li className="list-items">
@@ -177,7 +178,7 @@ const modal = () => {
               className="modal-link text-black fw-bold"
               onClick={() => dispatch({ type: "OPEN", payload: false })}
             >
-              Статус
+              Holat
             </a>
           </li>
           <li className="list-items">
@@ -186,7 +187,7 @@ const modal = () => {
               className="modal-link text-black fw-bold"
               onClick={() => dispatch({ type: "OPEN", payload: false })}
             >
-              Доставка
+              Yetkazib berish
             </a>
           </li>
           <li className="list-items">
@@ -195,7 +196,7 @@ const modal = () => {
               className="modal-link text-black fw-bold"
               onClick={() => dispatch({ type: "OPEN", payload: false })}
             >
-              cabinet
+              Kabinet
             </Link>
           </li>
         </ul>
